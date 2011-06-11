@@ -1,6 +1,16 @@
 CodeAcademy::Application.routes.draw do
   
   
+  get "pages/home"
+
+  get "pages/what"
+
+  get "pages/who"
+
+  get "pages/media"
+
+  get "pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
