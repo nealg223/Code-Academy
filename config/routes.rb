@@ -1,5 +1,6 @@
 CodeAcademy::Application.routes.draw do
   
+  root :to => "Pages#home"
   
   get "pages/home"
 
