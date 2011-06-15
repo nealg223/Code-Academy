@@ -1,6 +1,7 @@
 CodeAcademy::Application.routes.draw do
   
-  root :to => "Pages#home"
+  root :to => "Dummy#index"
+  
   match "send_email" => "email#send_it"
   
   get "pages/home"

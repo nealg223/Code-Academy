@@ -4,20 +4,21 @@
   <head>
     <title>Code Academy | <%= title %></title>
     <%= csrf_meta_tag %>
-    <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+    <%= stylesheet_link_tag :all %>
+    <link rel="stylesheet" href="stylesheets/style.css">
   </head>
   <body>
 	<div class ="container">
 	  <header>
 	  <!-- # put the link to the logo image tag here -->
-		<nav class="round">
-		  <ul>
-			<li><%= link_to "What", '#'  %></li>
-			<li><%= link_to "Who", '#'  %></li>
-			<li><%= link_to "Media", '#'  %></li>
-			<li><%= link_to "Contact", '#'  %></li>
-		  </ul>
-		</nav>
+		<!-- <nav class="round">
+			  <ul>
+				<li><%= link_to "What", '#'  %></li>
+				<li><%= link_to "Who", '#'  %></li>
+				<li><%= link_to "Media", '#'  %></li>
+				<li><%= link_to "Contact", '#'  %></li>
+			  </ul>
+			</nav> -->
 	  
 	  </header>
 	  <section class="round">
