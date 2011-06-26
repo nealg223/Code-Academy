@@ -1,18 +1,33 @@
 CodeAcademy::Application.routes.draw do
   
-  root :to => "Dummy#index"
-  
+  match '/question', :to => 'pages#question'
+  match '/home', :to => 'pages#home'
+  match '/what', :to => 'pages#what'
+  match '/why', :to => 'pages#why'
+  match '/chicago', :to => 'pages#chicago'
+  match '/who', :to => 'pages#who'
+  match '/pricing', :to => 'pages#pricing'
+  match '/contact', :to => 'pages#contact'
+
   match "send_email" => "email#send_it"
+ 
+  root :to => "pages#home"
   
-  get "pages/home"
-
-  get "pages/what"
-
-  get "pages/who"
-
-  get "pages/media"
-
-  get "pages/contact"
+  # get "pages/why"
+  # 
+  #   get "pages/pricing"
+  # 
+  #   get "pages/question"
+  #   
+  #   get "pages/home"
+  # 
+  #   get "pages/what"
+  # 
+  #   get "pages/who"
+  # 
+  #   get "pages/media"
+  # 
+  #   get "pages/contact"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
