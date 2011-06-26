@@ -2,8 +2,8 @@
 
 <%= form_tag send_email_path, {:class => "send_email_form"} do %>
 	<fieldset>
-		<%= label "email", "email" %>
-		<%= text_field "email", "email" %><br/>
+		<%= label_tag "email" %>
+		<%= text_field_tag "email" %><br/>
 	</fieldset>
 	<fieldset>
 		<%= submit_tag "Send" %>
