@@ -30,6 +30,7 @@ class PagesController < ApplicationController
   
   def contact
     @title = "Contact"
+    @tweet = Twitter::Client.new.user('codeacademy').status.text
   end
 
 end
