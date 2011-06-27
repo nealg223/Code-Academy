@@ -10,7 +10,7 @@ CodeAcademy::Application.routes.draw do
   match '/contact', :to => 'pages#contact'
 
   match "send_email" => "email#send_it"
- 
+   
   root :to => "pages#home"
   
   # get "pages/why"

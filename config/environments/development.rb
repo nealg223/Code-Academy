@@ -22,5 +22,14 @@ CodeAcademy::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+
+  # config.action_mailer.delivery_method = :test
+  ActionMailer::Base.smtp_settings = {
+    :address => "smtp.gmail.com",
+    :port => 587,
+    :user_name => "neal@codeacademy.org",
+    :password => "codeacademy",
+    :authentication => :plain
+  }
 end
 

@@ -3,6 +3,6 @@ class CodeacademyMailer < ActionMailer::Base
   
   def contact_us(email)
     @email = email
-    mail({:to => "neal@codeacademy.org", :subject => "#{email[:name]} says what up CODE ACADEMY"})
+    mail({:to => "neal@codeacademy.org", :subject => "#{email} says what up CODE ACADEMY"})
   end
 end
