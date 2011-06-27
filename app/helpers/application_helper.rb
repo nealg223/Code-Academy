@@ -9,4 +9,8 @@ module ApplicationHelper
       "#{base_title} | #{@title}"
     end
   end
+  
+  def tweet
+    @tweet = Twitter::Client.new.user('codeacademy').status.text
+  end
 end
