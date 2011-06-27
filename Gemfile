@@ -8,6 +8,7 @@ gem 'rake', "0.8.7"
 
 gem 'sqlite3', :group => [:development, :test]
 gem "escape_utils"
+gem "jquery-rails"
 
 # Use unicorn as the web server
 # gem 'unicorn'
