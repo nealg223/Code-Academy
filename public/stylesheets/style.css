@@ -14,6 +14,7 @@ body {
 
 .container {
 padding-right: 20px;
+height: 1000px;
 }
 
 .row {
@@ -26,10 +27,10 @@ overflow: hidden;
 
 #sidebar {
 	background: none repeat scroll 0 0 #94979D;
-	    bottom: 100px;
-	    height: 99%;
-	    position: absolute;
-	    width: 200px;
+	height: 1000px;
+	float: left;
+	width: 200px;
+	position: relative;
 }
 
 
