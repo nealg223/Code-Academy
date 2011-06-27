@@ -1,0 +1,10 @@
+.row
+  %h1 Code Academy Contact
+  = form_tag send_email_path, {:class => "send_email_form"} do
+    %fieldset
+      = label "student", "email"
+      = text_field "student", "email"
+      %br/
+    %fieldset
+      = submit_tag "Send"
+  = @tweet
