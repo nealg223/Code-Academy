@@ -1,0 +1,49 @@
+@font-face {
+	font-family: Vitesse;
+	font-weight: bold;
+	src: url('fonts/Vitesse-Bold.otf');
+}
+
+body {
+	background: #DDD;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.row {
+width: 100%;
+max-width: 1140px;
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+#sidebar {
+	background: #94979d;
+	width: 200px;
+	height: 800px;
+}
+
+
+#circle, #circle-2{
+width:200px;
+height:200px;
+display:block;
+border-radius:100px;
+-moz-border-radius:100px;
+-webkit-border-radius:100px;
+background:#aa0909;
+font-size:50px;
+color:#fff;
+line-height:200px;
+text-align:center;
+}
+
+#circle-2 {
+	background: #0a59d0;
+	float: right;
+}
