@@ -9,6 +9,23 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+#navigation {
+	font-family: Vitesse, Helvetica;
+	font-size: 24px;
+	color: white;
+	line-height: 1.5;
+	padding-left: 20px;
+}
+
+#navigation li {
+	position: relative;
+	top: 50px;
+}
+
+#navigation img {
+	position: relative;
+	top: 10px;
+}
 .container {
 padding-left: 20px;
 padding-right: 20px;
@@ -23,9 +40,16 @@ overflow: hidden;
 }
 
 #sidebar {
-	background: #94979d;
-	width: 200px;
-	height: 800px;
+	background: none repeat scroll 0 0 #94979D;
+	    bottom: 100px;
+	    height: 500px;
+	    position: absolute;
+	    width: 200px;
+}
+
+#choices {
+	width: 700px;
+	
 }
 
 
@@ -36,14 +60,18 @@ display:block;
 border-radius:100px;
 -moz-border-radius:100px;
 -webkit-border-radius:100px;
-background:#aa0909;
-font-size:50px;
+background:#0a59d0;
+font-size:55px;
+font-family: Vitesse;
+font-weight: bold;
 color:#fff;
 line-height:200px;
 text-align:center;
 }
 
 #circle-2 {
-	background: #0a59d0;
-	float: right;
+	background: #aa0909;
+	bottom: 197px;
+	position: relative;
+	left: 450px;
 }
