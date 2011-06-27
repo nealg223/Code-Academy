@@ -14,7 +14,7 @@ body {
 
 .container {
 padding-right: 20px;
-height: 1000px;
+height: 4000px;
 }
 
 .row {
@@ -26,11 +26,10 @@ overflow: hidden;
 }
 
 #sidebar {
-	background: none repeat scroll 0 0 #94979D;
-	height: 1000px;
-	float: left;
-	width: 200px;
-	position: relative;
+	left: 0;
+	top: 0;
+	position: fixed;
+	width: 265px;
 }
 
 
@@ -42,15 +41,22 @@ nav {
 	padding-left: 20px;
 }
 
-nav li {
-	position: relative;
-	top: 50px;
-}
+	nav li {
+		position: relative;
+		top: 50px;
+		list-style-type: none;
+	}
 
-nav img {
-	position: relative;
-	top: 10px;
-}
+		nav li a {
+			text-decoration: none;
+		}
+		
+	nav img {
+		position: relative;
+		top: 10px;
+	}
+
+/* Question Section CSS */
 
 #choices {
 	width: 700px;
@@ -80,3 +86,76 @@ text-align:center;
 	position: relative;
 	left: 450px;
 }
+
+/* End Question Section CSS */
+
+
+
+/* Start Home Section CSS */
+
+	#home {
+		
+	}
+
+/* End Home Section CSS */
+
+                            
+/* Start What Section CSS */
+
+#what {
+	
+}
+
+/* --- End What Section CSS ----- */
+
+
+/* Start Why Section CSS */
+
+#why {
+	
+}
+
+/* End Why Section CSS */
+
+
+/* Start Chicago Section CSS */
+
+#chicago {
+	
+}
+
+/* End Chicago Section CSS */
+
+
+
+/* Start Who Section CSS */
+
+#who {
+	
+}
+
+/* End Who Section CSS */
+
+
+
+
+
+/* Start Pricing Section CSS */
+
+#pricing {
+	
+}
+
+/* End Pricing Section CSS */
+
+
+
+/* Start Contact Section CSS */
+
+#contact {
+	
+}
+
+/* End Contact Section CSS */
+
+
