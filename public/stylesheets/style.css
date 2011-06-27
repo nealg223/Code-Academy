@@ -24,8 +24,16 @@ margin: 0 auto;
 overflow: hidden;
 }
 
+#sidebar {
+	background: none repeat scroll 0 0 #94979D;
+	    bottom: 100px;
+	    height: 99%;
+	    position: absolute;
+	    width: 200px;
+}
 
-#navigation {
+
+nav {
 	font-family: Vitesse, Helvetica;
 	font-size: 24px;
 	color: white;
@@ -33,23 +41,14 @@ overflow: hidden;
 	padding-left: 20px;
 }
 
-#navigation li {
+nav li {
 	position: relative;
 	top: 50px;
 }
 
-#navigation img {
+nav img {
 	position: relative;
 	top: 10px;
-}
-
-
-#sidebar {
-	background: none repeat scroll 0 0 #94979D;
-	    bottom: 100px;
-	    height: 500px;
-	    position: absolute;
-	    width: 200px;
 }
 
 #choices {

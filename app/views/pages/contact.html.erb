@@ -1,12 +1,13 @@
-<h1>Code Academy Contact</h1>
+<div class="row">
+    <h1>Code Academy Contact</h1>
 
-<%= form_tag send_email_path, {:class => "send_email_form"} do %>
-	<fieldset>
-		<%= label "student", "email" %>
-		<%= text_field "student", "email" %><br/>
-	</fieldset>
-	<fieldset>
-		<%= submit_tag "Send" %>
-	</fieldset>
-<%- end -%>
-<%= @tweet %>
+    <%= form_tag send_email_path, {:class => "send_email_form"} do %>
+    	<fieldset>
+    		<%= label "student", "email" %>
+    		<%= text_field "student", "email" %><br/>
+    	</fieldset>
+    	<fieldset>
+    		<%= submit_tag "Send" %>
+    	</fieldset>
+    <%- end -%>
+    <%= @tweet %>
