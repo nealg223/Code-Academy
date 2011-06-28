@@ -7,14 +7,59 @@
 
 */
 
+html {
+	overflow-y: auto;
+	background-color: transparent;
+}
+
 body {
-	background: #DDD;
+	background: #deddd8;
 	font-family: Helvetica, Arial, sans-serif;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 10px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* --- This is your entire scrollbar unit. Webkit-scrollbar accepts width and height for the scrollbar. --- */
+
+::-webkit-scrollbar {
+width: 7px;
+height: 7px;
+}
+
+/* --- This is your entire scrollbar unit. Webkit-scrollbar accepts width and height for the scrollbar. --- */
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+height: 40px;
+display: block;
+background-color: transparent;
+}
+
+/* --- This is the little button at the start and end of the scrollbar. You can style this as you would any other object. --- */
+
+::-webkit-scrollbar-track-piece  {
+background-color: #b6b5b5;
+-webkit-border-radius: 6px;
+width: 5px;
+}
+
+/* --- This is the thin background upon which your scrollbar moves in. The gutter. --- */
+
+::-webkit-scrollbar-thumb:vertical {
+height: 20px;
+background-color: white;
+/*border: 1px solid #eee; */
+-webkit-border-radius: 6px;
 }
 
 .container {
 padding-right: 20px;
-height: 4000px;
+height: 5000px;
 }
 
 .row {
@@ -23,6 +68,7 @@ max-width: 1140px;
 min-width: 755px;
 margin: 0 auto;
 overflow: hidden;
+padding-left: 350px;
 }
 
 #sidebar {
@@ -30,71 +76,144 @@ overflow: hidden;
 	top: 0;
 	position: fixed;
 	width: 265px;
+	height: 100%;
+	background: url(../images/grid_pattern_03.png) repeat-y;
 }
+
+	#sidebar img {
+		position: relative;
+		top: 40px;
+		left: 22px;
+	}
 
 
 nav {
-	font-family: Vitesse, Helvetica;
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-weight:300;
+	font-stretch:normal;
 	font-size: 24px;
 	color: white;
-	line-height: 1.5;
+	line-height: 2;
 	padding-left: 20px;
+	background: url(../images/grid_pattern_03.png) repeat-y;
+	position: relative;
+	top: 45px;
 }
 
 	nav li {
 		position: relative;
 		top: 50px;
 		list-style-type: none;
+		text-transform: uppercase;
 	}
 
 		nav li a {
 			text-decoration: none;
+			color: white;
+			text-shadow: 1px 1px 2px #000;
+			font-weight: bold;
 		}
-		
-	nav img {
-		position: relative;
-		top: 10px;
-	}
 
+
+.section {
+	padding-bottom: 1000px;
+}
+
+		
 /* Question Section CSS */
 
-#choices {
-	width: 700px;
+#question {
+	padding-top: 100px;
 	
 }
 
 
-#circle, #circle-2{
-width:200px;
-height:200px;
-display:block;
-border-radius:100px;
--moz-border-radius:100px;
--webkit-border-radius:100px;
-background:#0a59d0;
-font-size:55px;
-font-family: Vitesse;
-font-weight: bold;
-color:#fff;
-line-height:200px;
-text-align:center;
-}
+	#choices {
+		width: 700px;
+		position: relative;
+		top: 50px;
+	}
 
-#circle-2 {
-	background: #aa0909;
-	bottom: 197px;
-	position: relative;
-	left: 450px;
-}
+
+	#circle, #circle-2 {
+		width:200px;
+		height:200px;
+		display:block;
+		border-radius:100px;
+		-moz-border-radius:100px;
+		-webkit-border-radius:100px;
+		font-size:55px;
+		font-family: Vitesse;
+		font-weight: bold;
+		color:#fff;
+		line-height:200px;
+		text-align:center;
+		text-shadow: 1px 2px 2px #000;
+		text-transform: uppercase;
+	}
+	
+	#circle {
+		background:	rgb(69, 18, 237);
+		position: relative;
+		left: 91px;
+	}
+		#circle:hover {
+			background: rgb(12, 36, 122);
+		}
+	
+	#circle-2 {
+		background: rgb(214, 12, 43);
+		bottom: 197px;
+		position: relative;
+		left: 427px;
+	}
+	
+		#circle-2:hover {
+			background: rgb(150, 9, 9);
+		}
+	
+		#circle:hover, #circle-2:hover {
+			width:200px;
+			height:200px;
+			display:block;
+			border-radius:100px;
+			-moz-border-radius:100px;
+			-webkit-border-radius:100px;
+			font-size:55px;
+			font-family: Vitesse;
+			font-weight: bold;
+			color:#fff;
+			line-height:200px;
+			text-align:center;
+			text-shadow: 1px 2px 2px #000;
+			
+		}
+		
+		
+		
+
+ 	#choices a {
+		text-decoration: none;
+		-webkit-transition: all 1s ease-in-out;
+			-moz-transition: all .5s ease-in-out;
+			-o-transition: all 1s ease-in-out;
+			-ms-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+	}
+	
+		#choices a:hover {
+			font-size: 60px;
+		}
+
+
+
 
 /* End Question Section CSS */
-
-
 
 /* Start Home Section CSS */
 
 	#home {
-		
+		height: 800px;
 	}
 
 /* End Home Section CSS */
