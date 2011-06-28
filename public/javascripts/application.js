@@ -48,3 +48,15 @@ $(document).ready(function() {
 	  }
 
 	});
+	
+	$(document).ready(function() {
+		$("#cf_onclick").click(function() {
+			$("#cf2 img.top").toggleClass("transparent");
+		});
+	});
+	
+	$(document).ready(function() {
+		$("#choices-yes_onclick").click(function() {
+			$("#choices-yes img.top").toggleClass("transparent");
+		});
+	});

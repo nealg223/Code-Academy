@@ -24,23 +24,23 @@ body {
 	overflow-x: hidden;
 }
 
-/* --- This is your entire scrollbar unit. Webkit-scrollbar accepts width and height for the scrollbar. --- */
+/* --- This is your entire scrollbar unit. Webkit-scrollbar accepts width and height for the scrollbar. 
 
 ::-webkit-scrollbar {
-width: 7px;
-height: 7px;
+width: 10px;
+height: 10px;
 }
 
-/* --- This is your entire scrollbar unit. Webkit-scrollbar accepts width and height for the scrollbar. --- */
+/* --- This is your entire scrollbar unit. Webkit-scrollbar accepts width and height for the scrollbar.
 
 ::-webkit-scrollbar-button:start:decrement,
 ::-webkit-scrollbar-button:end:increment  {
-height: 40px;
+height: 60px;
 display: block;
 background-color: transparent;
 }
 
-/* --- This is the little button at the start and end of the scrollbar. You can style this as you would any other object. --- */
+/* --- This is the little button at the start and end of the scrollbar. You can style this as you would any other object. 
 
 ::-webkit-scrollbar-track-piece  {
 background-color: #b6b5b5;
@@ -48,14 +48,16 @@ background-color: #b6b5b5;
 width: 5px;
 }
 
-/* --- This is the thin background upon which your scrollbar moves in. The gutter. --- */
+/* --- This is the thin background upon which your scrollbar moves in. The gutter. 
 
 ::-webkit-scrollbar-thumb:vertical {
 height: 20px;
 background-color: white;
-/*border: 1px solid #eee; */
+border: 1px solid #eee;
 -webkit-border-radius: 6px;
 }
+
+--- */
 
 .container {
 padding-right: 20px;
@@ -68,7 +70,6 @@ max-width: 1140px;
 min-width: 755px;
 margin: 0 auto;
 overflow: hidden;
-padding-left: 350px;
 }
 
 #sidebar {
@@ -113,10 +114,48 @@ nav {
 			text-shadow: 1px 1px 2px #000;
 			font-weight: bold;
 		}
-
+		
+			nav li a:hover {
+				color: #dbdbdb;
+				-webkit-transition: all 1s ease-in-out;
+				-moz-transition: all .4s ease-in-out;
+				-o-transition: all 1s ease-in-out;
+				-ms-transition: all 1s ease-in-out;
+				transition: all 1s ease-in-out;
+			}
+			
+				nav li a#first {
+					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
+					
+				}
+				
+				nav li a#second {
+					text-shadow: 1px 1px 2px rgba(20, 182, 148, .5);
+				}
+				
+				nav li a#third {
+					text-shadow: 1px 1px 2px rgba(224, 21, 226, .5);
+				}
+				
+				nav li a#fourth {
+					text-shadow: 1px 1px 2px rgba(255, 201, 38, .5);
+				}
+				
+				nav li a#fifth {
+					text-shadow: 1px 1px 2px rgba(174, 17, 239, .5);
+				}
+				
+				nav li a#sixth {
+					text-shadow: 1px 1px 2px rgba(245, 54, 23, .5);
+				}
+				
+				nav li a#seventh {
+					text-shadow: 1px 1px 2px rgba(22, 188, 108, .5);
+				}
 
 .section {
 	padding-bottom: 1000px;
+	padding-left: 250px;
 }
 
 		
@@ -124,17 +163,19 @@ nav {
 
 #question {
 	padding-top: 100px;
+	text-align: center;
 	
 }
 
-
-	#choices {
-		width: 700px;
-		position: relative;
-		top: 50px;
+	#question img {
+		max-width: 100%;
+		margin: 0 auto;
 	}
-
-
+	
+	#choices {
+		margin: 0 auto;
+	}
+	
 	#circle, #circle-2 {
 		width:200px;
 		height:200px;
@@ -151,70 +192,160 @@ nav {
 		text-shadow: 1px 2px 2px #000;
 		text-transform: uppercase;
 	}
+
 	
 	#circle {
 		background:	rgb(69, 18, 237);
 		position: relative;
-		left: 91px;
+		left: 220px;
+		text-decoration: none;
+		top: 50px;
 	}
-		#circle:hover {
+	
+		#circle a:hover {
 			background: rgb(12, 36, 122);
 		}
 	
 	#circle-2 {
 		background: rgb(214, 12, 43);
-		bottom: 197px;
+		left: 550px;
 		position: relative;
-		left: 427px;
-	}
-	
-		#circle-2:hover {
-			background: rgb(150, 9, 9);
-		}
-	
-		#circle:hover, #circle-2:hover {
-			width:200px;
-			height:200px;
-			display:block;
-			border-radius:100px;
-			-moz-border-radius:100px;
-			-webkit-border-radius:100px;
-			font-size:55px;
-			font-family: Vitesse;
-			font-weight: bold;
-			color:#fff;
-			line-height:200px;
-			text-align:center;
-			text-shadow: 1px 2px 2px #000;
-			
-		}
-		
-		
-		
-
- 	#choices a {
 		text-decoration: none;
-		-webkit-transition: all 1s ease-in-out;
-			-moz-transition: all .5s ease-in-out;
-			-o-transition: all 1s ease-in-out;
-			-ms-transition: all 1s ease-in-out;
-			transition: all 1s ease-in-out;
+		bottom: 153px;
 	}
+		#circle-2 a:hover {
+			background: rgb(183, 12, 43);
+		}
+
+
+			#choices a {
+			text-decoration: none;
+				-webkit-transition: all 1s ease-in-out;
+				-moz-transition: all .5s ease-in-out;
+				-o-transition: all 1s ease-in-out;
+				-ms-transition: all 1s ease-in-out;
+				transition: all 1s ease-in-out;
+				}
+				
+		
+				#choices a:hover {
+					font-size: 60px;
+				}
+		
+		
+		/* For Demo Purposes Only
+
+		#cf2 {
+				position:relative;
+				height:281px;
+				width:450px;
+				margin:0 auto;
+			}
+
+		#cf2 img {
+				position:absolute;
+				left:0;
+				-webkit-transition: opacity 1s ease-in-out;
+				-moz-transition: opacity 1s ease-in-out;
+				-o-transition: opacity 1s ease-in-out;
+				-ms-transition: opacity 1s ease-in-out;	
+				transition: opacity 1s ease-in-out;
+			}
+
+		#cf2 img.transparent {
+				opacity:0;
+		}
+
+		#cf_onclick {
+				cursor:pointer;
+		}
+
+		/* End of Demo */
+
+		/*
+
+		#choices-yes {
+				width: 250px;
+				position: relative;
+				top: 50px;
+				margin: 0 auto;
+				right: 164px;
+		}
+		/*
+				#choices-yes:hover {
+					background: url(../images/yes_arrow_03.png) no-repeat;
+				}
+
+				#choices-yes img.top:hover {
+					opacity: 0;
+				}
+
+
+			/* 
+
+				#choices-yes img {
+					position:absolute;
+					left:0;
+					-webkit-transition: opacity 1s ease-in-out;
+					-moz-transition: opacity 1s ease-in-out;
+					-o-transition: opacity 1s ease-in-out;
+					-ms-transition: opacity 1s ease-in-out;	
+					transition: opacity 1s ease-in-out;
+				}
+
+
+
+
+
+
+				#choices-yes img.transparent {
+					opacity:0;
+				}
+
+				#choices-yes_onclick {
+					cursor: pointer;
+				}
+
+		*/
+
+		/*
+
+			#choices-yes a:hover {
+				/*background: url(../images/yes_arrow_03.png) no-repeat;
+				height: 1300px;
+				position: relative;
+				bottom: 200px;
+				left: 5px;
+			}
+
+		*/
+
+
+		/*
+
+			#choices-no {
+				width: 300px;
+				position: relative;
+				top: -126px;
+				margin: 0 auto;		
+			}
+
 	
-		#choices a:hover {
+	#choices-yes a:hover, #choices-no a:hover {
 			font-size: 60px;
 		}
 
-
+*/
 
 
 /* End Question Section CSS */
 
 /* Start Home Section CSS */
 
-	#home {
-		height: 800px;
-	}
+#home {
+	height: 800px;
+	background: rgb(8, 0, 164);
+}
 
 /* End Home Section CSS */
 
@@ -222,7 +353,7 @@ nav {
 /* Start What Section CSS */
 
 #what {
-	
+	height: 800px;
 }
 
 /* --- End What Section CSS ----- */
@@ -231,7 +362,7 @@ nav {
 /* Start Why Section CSS */
 
 #why {
-	
+	height: 800px;
 }
 
 /* End Why Section CSS */
@@ -240,7 +371,7 @@ nav {
 /* Start Chicago Section CSS */
 
 #chicago {
-	
+	height: 800px;
 }
 
 /* End Chicago Section CSS */
