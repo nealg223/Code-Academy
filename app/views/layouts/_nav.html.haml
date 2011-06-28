@@ -2,10 +2,17 @@
   %img{:alt => "Code Academy", :src => "images/ca_logo_white_03.png"}/
   %nav
     / <li><haml:loud> link_to &amp;quot;Question&amp;quot;, question_path  </haml:loud></li>
-    %li= link_to "Home", root_path
-    %li= link_to "What", what_path
-    %li= link_to "Why", why_path
-    %li= link_to "Chicago", chicago_path
-    %li= link_to "Who", who_path
-    %li= link_to "Pricing", pricing_path
-    %li= link_to "Contact", contact_path
+    %li
+      %a{:href => "#home"} Home
+    %li
+      %a{:href => "#what"} What
+    %li
+      %a{:href => "#why"} Why
+    %li
+      %a{:href => "#chicago"} Chicago
+    %li
+      %a{:href => "#who"} Who
+    %li
+      %a{:href => "#pricing"} Pricing
+    %li
+      %a{:href => "#contact"} Contact
