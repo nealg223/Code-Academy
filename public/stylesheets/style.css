@@ -212,9 +212,9 @@ nav {
 
 /* Start Home Section CSS */
 
-	#home {
-		height: 800px;
-	}
+#home {
+	height: 800px;
+}
 
 /* End Home Section CSS */
 
@@ -222,7 +222,7 @@ nav {
 /* Start What Section CSS */
 
 #what {
-	
+	height: 800px
 }
 
 /* --- End What Section CSS ----- */
@@ -231,7 +231,7 @@ nav {
 /* Start Why Section CSS */
 
 #why {
-	
+	height: 800px
 }
 
 /* End Why Section CSS */
@@ -240,7 +240,7 @@ nav {
 /* Start Chicago Section CSS */
 
 #chicago {
-	
+	height: 800px
 }
 
 /* End Chicago Section CSS */
