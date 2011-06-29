@@ -109,6 +109,7 @@ nav {
 	}
 
 		nav li a {
+			font-family: Variable, Helvetica, sans-serif;
 			text-decoration: none;
 			color: white;
 			text-shadow: 1px 1px 2px #000;
@@ -116,12 +117,7 @@ nav {
 		}
 		
 			nav li a:hover {
-				color: #dbdbdb;
-				-webkit-transition: all 1s ease-in-out;
-				-moz-transition: all .4s ease-in-out;
-				-o-transition: all 1s ease-in-out;
-				-ms-transition: all 1s ease-in-out;
-				transition: all 1s ease-in-out;
+				
 			}
 			
 				nav li a#first {
@@ -130,27 +126,27 @@ nav {
 				}
 				
 				nav li a#second {
-					text-shadow: 1px 1px 2px rgba(20, 182, 148, .5);
+					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
 				}
 				
 				nav li a#third {
-					text-shadow: 1px 1px 2px rgba(224, 21, 226, .5);
+					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
 				}
 				
 				nav li a#fourth {
-					text-shadow: 1px 1px 2px rgba(255, 201, 38, .5);
+					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
 				}
 				
 				nav li a#fifth {
-					text-shadow: 1px 1px 2px rgba(174, 17, 239, .5);
+					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
 				}
 				
 				nav li a#sixth {
-					text-shadow: 1px 1px 2px rgba(245, 54, 23, .5);
+					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
 				}
 				
 				nav li a#seventh {
-					text-shadow: 1px 1px 2px rgba(22, 188, 108, .5);
+					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
 				}
 
 .section {
@@ -174,6 +170,8 @@ nav {
 	
 	#choices {
 		margin: 0 auto;
+		position: relative;
+		right: 50px;
 	}
 	
 	#circle, #circle-2 {
@@ -344,7 +342,6 @@ nav {
 
 #home {
 	height: 800px;
-	background: rgb(8, 0, 164);
 }
 
 /* End Home Section CSS */
