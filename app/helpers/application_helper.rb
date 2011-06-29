@@ -6,6 +6,6 @@ module ApplicationHelper
   end
   
   def tweet
-    @tweet = Twitter::Client.new.user('codeacademy').status.text
+    @tweet = Twitter::Client.new.user('codeacademy').status.text rescue ""
   end
 end
