@@ -60,14 +60,23 @@ $(document).ready(function() {
     
     $(window).scroll(function () { 
           // $("span").css("display", "inline").fadeOut("slow");
-          $('.nav_link').removeClass("current");
-          if (isScrolledIntoView($('#what'))) {
-            $('#second').addClass('current');
-          };
-          if (isScrolledIntoView($('#contact'))) {
-            $('#seventh').addClass('current');
-          }
-      });
+		$('.nav_link').removeClass("current");
+		if (isScrolledIntoView($('#home'))) {
+			$('#first').addClass('current');
+		} else if(isScrolledIntoView($('#what'))) {
+			$('#second').addClass('current');
+		} else if(isScrolledIntoView($('#why'))) {
+			$('#third').addClass('current');
+		} else if(isScrolledIntoView($('#chicago'))) {
+			$('#fourth').addClass('current');
+		} else if(isScrolledIntoView($('#who'))) {
+			$('#fifth').addClass('current');
+		} else if(isScrolledIntoView($('#pricing'))) {
+			$('#sixth').addClass('current');
+		} else if(isScrolledIntoView($('#contact'))) {
+			$('#seventh').addClass('current');
+		}
+	});
     
 });
 	
