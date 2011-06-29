@@ -47,7 +47,29 @@ $(document).ready(function() {
 	    return [];
 	  }
 
-	});
+    function isScrolledIntoView(elem)
+    {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom));
+    }
+    
+    $(window).scroll(function () { 
+          // $("span").css("display", "inline").fadeOut("slow");
+          $('.nav_link').removeClass("current");
+          if (isScrolledIntoView($('#what'))) {
+            $('#second').addClass('current');
+          };
+          if (isScrolledIntoView($('#contact'))) {
+            $('#seventh').addClass('current');
+          }
+      });
+    
+});
 	
 	$(document).ready(function() {
 		$("#cf_onclick").click(function() {
