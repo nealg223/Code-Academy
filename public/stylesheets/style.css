@@ -7,6 +7,70 @@
 
 */
 
+@font-face {
+    font-family: 'Variable Regular';
+    src: url('../fonts/variable_regular-webfont.eot');
+    src: url('../fonts/variable_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/variable_regular-webfont.woff') format('woff'),
+         url('../fonts/variable_regular-webfont.ttf') format('truetype'),
+         url('../fonts/variable_regular-webfont.svg#VariableRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	font-variant: normal;
+
+}
+
+@font-face {
+    font-family: 'VariableLtLight';
+    src: url('../fonts/variable_light-webfont.eot');
+    src: url('../fonts/variable_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/variable_light-webfont.woff') format('woff'),
+         url('../fonts/variable_light-webfont.ttf') format('truetype'),
+         url('../fonts/variable_light-webfont.svg#VariableLtLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'VariableBold';
+    src: url('../fonts/variable_bold-webfont.eot');
+    src: url('../fonts/variable_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/variable_bold-webfont.woff') format('woff'),
+         url('../fonts/variable_bold-webfont.ttf') format('truetype'),
+         url('../fonts/variable_bold-webfont.svg#VariableBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* 
+@font-face {
+    font-family: 'Hattori-Hanzo-Light';
+    src: url('public/fonts/Hattori_Hanzo-webfont.eot');
+	src: local('☺'),
+    src: url('public/fonts/Hattori_Hanzo-webfont.woff') format('woff'),
+         url('public/fonts/Hattori_Hanzo-webfont.ttf') format('truetype'),
+         url('public/fonts/Hattori_Hanzo-webfont.svg#HattoriHanzoLight') format('svg');
+    	font-weight:normal;
+		      font-style:normal;
+		      font-variant:normal;
+
+}
+
+@font-face {
+    font-family: 'HattoriHanzoLightItalic';
+    src: url('public/fonts/Hattori_Hanzo_Italic-webfont.eot');
+	src: local('☺'),
+    src: url('public/fonts/Hattori_Hanzo_Italic-webfont.woff') format('woff'),
+         url('public/fonts/Hattori_Hanzo_Italic-webfont.ttf') format('truetype'),
+         url('public/fonts/Hattori_Hanzo_Italic-webfont.svg#HattoriHanzoLightItalic') format('svg');
+   		font-weight:normal;
+		      font-style:normal;
+		      font-variant:normal;
+}
+
+*/
 html {
 /*	overflow-y: auto;
 */	background-color: transparent;
@@ -14,7 +78,8 @@ html {
 
 body {
 	background: #deddd8;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Variable Regular', Arial, sans-serif;
+	font-size: 16px;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -58,6 +123,10 @@ border: 1px solid #eee;
 }
 
 --- */
+
+h2 {
+	font-size: 24px;
+}
 
 .container {
 padding-right: 20px;
@@ -194,6 +263,10 @@ nav {
 .section {
 	padding-bottom: 1000px;
 	padding-left: 250px;
+}
+
+img {
+	max-width: 100%;
 }
 
 		
@@ -385,6 +458,11 @@ nav {
 #home {
 	height: 800px;
 }
+
+
+	#home h2 {
+		text-align: center;
+	}
 
 /* End Home Section CSS */
 
