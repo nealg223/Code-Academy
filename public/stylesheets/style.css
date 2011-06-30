@@ -7,13 +7,6 @@
 
 */
 
-.current {
-	padding: 10px 69px;
-background-color: rgba(0,0,0,.3);
-	width: 197px;
-	margin-left: -60px;
-}
-
 html {
 /*	overflow-y: auto;
 */	background-color: transparent;
@@ -93,6 +86,8 @@ overflow: hidden;
 		top: 40px;
 		left: 22px;
 	}
+	
+/* ----- Navigation CSS ------ */
 
 
 nav {
@@ -121,40 +116,80 @@ nav {
 			color: white;
 			text-shadow: 1px 1px 2px #000;
 			font-weight: bold;
+			padding-left: 10px;
+			padding-right: 55px;
+			padding-top: 3px;
 		}
-		
-			nav li a:hover {
-				
+			
+			nav li a#first, a#second, a#third, a#fourth, a#fifth, a#sixth, a#seventh  {
+				text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);	
 			}
 			
+				.current {
+					background: url(../images/nav_hover_03.png) no-repeat;
+					width: 197px;
+					height: 39px;
+					z-index: 1;
+				}
+				
 				nav li a#first {
-					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
-					
+					padding-left: 30px;
+					padding-right: 103px;
+					padding-top: 9px;
+					padding-bottom: 2px;
+					margin-left: -20px;
 				}
 				
 				nav li a#second {
-					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
+					padding-left: 30px;
+					padding-right: 103px;
+					padding-top: 9px;
+					padding-bottom: 2px;
+					margin-left: -20px;
 				}
 				
 				nav li a#third {
-					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
+					padding-left: 30px;
+					padding-right: 114px;
+					padding-top: 9px;
+					padding-bottom: 2px;
+					margin-left: -20px;
 				}
 				
 				nav li a#fourth {
-					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
+					padding-left: 32px;
+					padding-right: 93px;
+					padding-top: 9px;
+					padding-bottom: 2px;
+					margin-left: -23px;
 				}
 				
 				nav li a#fifth {
-					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
+					padding-left: 30px;
+					padding-right: 113px;
+					padding-top: 9px;
+					padding-bottom: 2px;
+					margin-left: -20px;
 				}
 				
 				nav li a#sixth {
-					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
+					padding-left: 35px;
+					padding-right: 103px;
+					padding-top: 9px;
+					padding-bottom: 2px;
+					margin-left: -24px;
 				}
 				
 				nav li a#seventh {
-					text-shadow: 1px 1px 2px rgba(10, 89, 208, .5);
+					padding-left: 33px;
+					padding-right: 143px;
+					padding-top: 9px;
+					padding-bottom: 2px;
+					margin-left: -24px;
 				}
+	
+				
+/* ----- End of Navigation CSS ------ */
 
 .section {
 	padding-bottom: 1000px;
