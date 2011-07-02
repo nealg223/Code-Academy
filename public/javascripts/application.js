@@ -20,7 +20,7 @@ $(document).ready(function() {
 	        var targetOffset = $target.offset().top;
 	        $(this).click(function(event) {
 	          event.preventDefault();
-	          $(scrollElem).animate({scrollTop: targetOffset}, 1000, function() {
+	          $(scrollElem).animate({scrollTop: targetOffset}, 500, function() {
 	            location.hash = target;
 	          });
 	        });

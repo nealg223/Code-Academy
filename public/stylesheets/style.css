@@ -78,8 +78,8 @@ html {
 
 body {
 	background: url(../images/03_what_bkg.jpg) repeat #deddd8;
-	font-family: 'Variable Regular', Arial, sans-serif;
-	font-size: 16px;
+	font-family: Monaco, 'Play', 'Variable Regular', Arial, sans-serif;
+	font-size: 20px;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -130,6 +130,7 @@ h1 {
 	margin-bottom: 18px;
 	margin-top: 10px;
 	font-weight: bold;
+	font-family: Inconsolata;
 }
 
 h2 {
