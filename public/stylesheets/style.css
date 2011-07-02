@@ -129,8 +129,6 @@ h1 {
 	line-height: 40px;
 	margin-bottom: 18px;
 	margin-top: 10px;
-	font-weight: bold;
-	font-family: Inconsolata;
 }
 
 h2 {
@@ -149,7 +147,8 @@ p {
 	margin-top: 18px;
 	margin-bottom: 18px;
 	line-height: 24px;
-	
+	font-size: 18px;
+	font-family: Monaco;
 }
 
 ul, ol {
@@ -288,6 +287,7 @@ nav {
 .section {
 	padding-bottom: 1000px;
 	padding-left: 250px;
+	padding-top: 150px;
 }
 
 img {
