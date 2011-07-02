@@ -71,7 +71,7 @@ $(document).ready(function() {
 			$('#fourth').addClass('current');
 		} else if(isScrolledIntoView($('#who'))) {
 			$('#fifth').addClass('current');
-		} else if(isScrolledIntoView($('#pricing'))) {
+		} else if(isScrolledIntoView($('#	'))) {
 			$('#sixth').addClass('current');
 		} else if(isScrolledIntoView($('#contact'))) {
 			$('#seventh').addClass('current');
