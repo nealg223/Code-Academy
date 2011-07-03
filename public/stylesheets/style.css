@@ -478,83 +478,69 @@ img {
 
 /* End Question Section CSS */
 
-/* Start Home Section CSS */
+/* Start Wanted Section CSS */
 
-#home {
+#wanted {
 	height: 800px;
 }
 
-	#home h2 {
+	#wanted h2 {
 		text-align: center;
 	}
 	
-	#home iframe {
+	#wanted iframe {
 		
 		margin: 19px auto;
 		    position: relative;
 		    width: 100%;
 	}
 
-/* End Home Section CSS */
+/* End Wanted Section CSS */
 
                             
-/* Start What Section CSS */
+/* Start Skills Section CSS */
 
-#what {
+#skills {
 	height: 800px;
 }
 
-/* --- End What Section CSS ----- */
+/* --- End Skills Section CSS ----- */
 
 
-/* Start Why Section CSS */
+/* Start Eligibility Section CSS */
 
-#why {
+#eligibility {
 	height: 800px;
 }
 
-/* End Why Section CSS */
+/* End Eligibility Section CSS */
 
 
-/* Start Chicago Section CSS */
+/* Start Crew Section CSS */
 
-#chicago {
+#crew {
 	height: 800px;
 }
 
-/* End Chicago Section CSS */
+/* End Crew Section CSS */
 
 
 
-/* Start Who Section CSS */
+/* Start Community Section CSS */
 
-#who {
+#community {
 	
 }
 
-/* End Who Section CSS */
+/* End Community Section CSS */
 
+/* Start Apply Section CSS */
 
-
-
-
-/* Start Pricing Section CSS */
-
-#pricing {
+#apply {
 	
 }
 
-/* End Pricing Section CSS */
-
-
-
-/* Start Contact Section CSS */
-
-#contact {
-	
-}
-
-	#contact tweet {
+	#apply tweet {
 		color: #C53C78;
 		font-size: 24px;
 		line-height: 1.5;
@@ -563,6 +549,6 @@ img {
 		top: 10px;
 	}
 
-/* End Contact Section CSS */
+/* End Apply Section CSS */
 
 

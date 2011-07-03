@@ -1,17 +1,15 @@
 CodeAcademy::Application.routes.draw do
   
-  match '/question', :to => 'pages#question'
-  match '/home', :to => 'pages#home'
-  match '/what', :to => 'pages#what'
-  match '/why', :to => 'pages#why'
-  match '/chicago', :to => 'pages#chicago'
-  match '/who', :to => 'pages#who'
-  match '/pricing', :to => 'pages#pricing'
-  match '/contact', :to => 'pages#contact'
+  match '/wanted', :to => 'pages#wanted'
+  match '/skills', :to => 'pages#skills'
+  match '/eligibility', :to => 'pages#eligibility'
+  match '/crew', :to => 'pages#crew'
+  match '/community', :to => 'pages#community'
+  match '/apply', :to => 'pages#apply'
 
   match "send_email" => "email#send_it"
    
-  root :to => "pages#home"
+  root :to => "pages#wanted"
   
   # get "pages/why"
   # 

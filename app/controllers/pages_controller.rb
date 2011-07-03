@@ -1,36 +1,27 @@
 class PagesController < ApplicationController
   
-  def question
-    @title = "Question"
+  def wanted
+    @title = "Wanted"
   end
   
-  def home
-    @title = "Home"
+  def skills
+    @title = "Skills"
   end
 
-  def what
-    @title = "What"
+  def eligibility
+    @title = "Eligibility"
   end
   
-  def why
-    @title = "Why"
+  def crew
+    @title = "Crew"
   end
   
-  def chicago
-    @title = "Chicago"
+  def community
+    @title = "Community"
   end
   
-  def who
-    @title = "Who"
-  end
-  
-  def pricing
-    @title = "Pricing"
-  end
-  
-  def contact
-    @title = "Contact"
+  def apply
+    @title = "Apply"
     @tweet = Twitter::Client.new.user('codeacademy').status.text
   end
-
 end

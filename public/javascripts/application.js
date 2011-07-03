@@ -61,21 +61,21 @@ $(document).ready(function() {
     $(window).scroll(function () { 
           // $("span").css("display", "inline").fadeOut("slow");
 		$('.nav_link').removeClass("current");
-		if (isScrolledIntoView($('#home'))) {
+		if (isScrolledIntoView($('#wanted'))) {
 			$('#first').addClass('current');
-		} else if(isScrolledIntoView($('#what'))) {
+		} else if(isScrolledIntoView($('#skills'))) {
 			$('#second').addClass('current');
-		} else if(isScrolledIntoView($('#why'))) {
+		} else if(isScrolledIntoView($('#eligibility'))) {
 			$('#third').addClass('current');
-		} else if(isScrolledIntoView($('#chicago'))) {
+		} else if(isScrolledIntoView($('#crew'))) {
 			$('#fourth').addClass('current');
-		} else if(isScrolledIntoView($('#who'))) {
+		} else if(isScrolledIntoView($('#community'))) {
 			$('#fifth').addClass('current');
-		} else if(isScrolledIntoView($('#pricing'))) {
+		} else if(isScrolledIntoView($('#apply'))) {
 			$('#sixth').addClass('current');
-		} else if(isScrolledIntoView($('#contact'))) {
-			$('#seventh').addClass('current');
-		}
+		} // else if(isScrolledIntoView($('#contact'))) {
+		//      $('#seventh').addClass('current');
+		//    }
 	});
     
 });
