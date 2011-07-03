@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-if [[ -s "/Users/nealsalesgriffin/.rvm/environments/ruby-1.9.2-p180" ]]
+if [[ -s "/Users/flashmanproductions1/.rvm/environments/ruby-1.9.2-p180" ]]
 then
-  source "/Users/nealsalesgriffin/.rvm/environments/ruby-1.9.2-p180"
+  source "/Users/flashmanproductions1/.rvm/environments/ruby-1.9.2-p180"
   exec erb "$@"
 else
-  echo "ERROR: Missing RVM environment file: '/Users/nealsalesgriffin/.rvm/environments/ruby-1.9.2-p180'" >&2
+  echo "ERROR: Missing RVM environment file: '/Users/flashmanproductions1/.rvm/environments/ruby-1.9.2-p180'" >&2
   exit 1
 fi
   

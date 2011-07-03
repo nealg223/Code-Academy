@@ -77,9 +77,10 @@ html {
 }
 
 body {
-	background: url(../images/03_what_bkg.jpg) repeat #deddd8;
-	font-family: Monaco, 'Play', 'Variable Regular', Arial, sans-serif;
+	background: #deddd8;
+	font-family: Helvetica Neue, Helvetica-Neue, Helvetica,Arial,sans-serif;
 	font-size: 20px;
+	font-weight: lighter;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -503,6 +504,11 @@ img {
 #skills {
 	height: 800px;
 }
+
+	#skills h2 {
+		font-family: Helvetica Condensed, Helvetica, sans-serif;
+		font-weight: bold;
+	}
 
 /* --- End Skills Section CSS ----- */
 
