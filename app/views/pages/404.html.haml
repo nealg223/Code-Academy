@@ -1,0 +1,30 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+      %title CSS3 Isometric Text Demo
+      %link{:href => "404/styles.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}
+  %body
+    %section#container
+      %header
+        %hgroup
+          %h1.skew1 CSS3 ISOMETRIC
+          :javascript
+            document.write('CSS3 ISOMETRIC<\/h1>');
+                          %h2.skew3 TEXT DEMO
+          :javascript
+            document.write('TEXT DEMO<\/h2>');
+                      %p.text-block.skew5 An example of 3D Isometric text created using CSS3 text-shadows, 2D transforms and @Font-face embedding. This demo has been tested in Safari 5, Firefox 3, Chrome 10 & Opera 11 on Mac.
+      %footer
+        %p
+          Demo by D.G. Midwinter —
+          %a{:href => "#"} blog article →
+    :javascript
+      var _gaq = [['_setAccount', 'UA-2812723-11'], ['_trackPageview']];
+      (function(d, t) {
+      var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      g.async = true;
+      g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g, s);
+      })(document, 'script');
