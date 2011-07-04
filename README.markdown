@@ -2,4 +2,6 @@ CODE ACADEMY is a lean educational institution for web application development a
 
 Send us an email to be notified when we launch!
 
+Biscuits.
+
 contact@codeacademy.org
