@@ -647,6 +647,10 @@ img {
 		position: relative;
 		top: 10px;
 	}
+	
+	img#tweet-title {
+		position: relative;
+	}
 
 /* End Apply Section CSS */
 
