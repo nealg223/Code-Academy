@@ -184,7 +184,7 @@ overflow: hidden;
 	#sidebar img {
 		position: relative;
 		top: 40px;
-		left: 18px;
+		left: 32px;
 	}
 	
 /* ----- Navigation CSS ------ */
@@ -535,7 +535,7 @@ img {
 	#skills h2 {
 		font-family: Helvetica Condensed, Helvetica, sans-serif;
 		font-weight: bold;
-		font-size: 48px;
+		font-size: 32px;
 	}
 	
 	#skills ul {
@@ -544,7 +544,7 @@ img {
 	}
 	
 	#skills li {
-		font-size: 32px;
+		font-size: 24px;
 		line-height: 1.5;
 		position: relative;
 		left: 35px;
@@ -640,7 +640,7 @@ img {
 }
 
 	#apply tweet {
-		color: #C53C78;
+		color: #036EA4;
 		font-size: 24px;
 		line-height: 1.5;
 		padding: 10px;
