@@ -147,11 +147,12 @@ h3 {
 }
 
 p {
-	margin-top: 18px;
-	margin-bottom: 18px;
-	line-height: 24px;
-	font-size: 18px;
-	font-family: Monaco;
+	font-family: Helvetica-Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 24px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-shadow: 0 1px 2px #036EA4;
 }
 
 ul, ol {
@@ -492,6 +493,7 @@ img {
 
 #wanted {
 	height: 800px;
+	margin-top: -100px;
 }
 
 	#wanted h2 {
@@ -522,6 +524,7 @@ img {
 
 #skills {
 	height: 800px;
+	margin-top: -100px;
 }
 
 	img#title {
@@ -562,7 +565,9 @@ img {
 /* Start Eligibility Section CSS */
 
 #eligibility {
-	height: 800px;
+	height: 400px;
+	margin-top: -100px;
+	margin-bottom: -100px;
 }
 
 	#eligibility h1 {
@@ -575,6 +580,16 @@ img {
 	#eligibility h2 {
 		font-weight: bold;
 		font-size: 32px;
+		margin-top: 50px;
+	}
+	
+	#eligibility p {
+		font-family: Helvetica-Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		font-size: 24px;
+		line-height: 1.5;
+		letter-spacing: 1px;
+		text-shadow: 0 1px 2px #036EA4;
 	}
 	
 		h2#passion {
@@ -588,7 +603,23 @@ img {
 
 #crew {
 	height: 800px;
+	margin-top: -150px;
 }
+
+	#crew h2 {
+		font-family: Helvetica Condensed, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 32px;
+		margin-top: 50px;
+	}
+	
+		ul#mentor-list, #partner-list, #staff-list {
+			font-size: 24px;
+			line-height: 1.5;
+			position: relative;
+			letter-spacing: 1px;
+			text-shadow: 0 1px 2px #036EA4;
+		}
 
 /* End Crew Section CSS */
 
