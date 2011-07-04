@@ -504,6 +504,16 @@ img {
 		    position: relative;
 		    width: 100%;
 	}
+	
+	#wanted img {
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	#wanted img#ad {
+		left: 170px;
+		top: 17px;
+	}
 
 /* End Wanted Section CSS */
 
@@ -514,10 +524,37 @@ img {
 	height: 800px;
 }
 
+	img#title {
+		margin-bottom: 45px;
+		
+	}
+
 	#skills h2 {
 		font-family: Helvetica Condensed, Helvetica, sans-serif;
 		font-weight: bold;
+		font-size: 48px;
 	}
+	
+	#skills ul {
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+	
+	#skills li {
+		font-size: 32px;
+		line-height: 1.5;
+		position: relative;
+		left: 35px;
+		margin-left: 10px;
+	}
+	
+	#dev-skills img, #soft-skills img {
+		position: relative;
+		top: -35px;
+	}
+	
+
+	
 
 /* --- End Skills Section CSS ----- */
 
@@ -527,6 +564,22 @@ img {
 #eligibility {
 	height: 800px;
 }
+
+	#eligibility h1 {
+		font-size: 40px;
+		    font-weight: bold;
+		    text-shadow: 3px 2px 2px white;
+		
+	}
+	
+	#eligibility h2 {
+		font-weight: bold;
+		font-size: 32px;
+	}
+	
+		h2#passion {
+			margin-top: 50px;
+		}
 
 /* End Eligibility Section CSS */
 
