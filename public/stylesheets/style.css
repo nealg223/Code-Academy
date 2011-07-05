@@ -296,7 +296,7 @@ nav {
 /* ----- End of Navigation CSS ------ */
 
 .section {
-	padding-bottom: 1000px;
+	padding-bottom: 700px;
 	padding-left: 250px;
 	padding-top: 150px;
 }
@@ -493,7 +493,7 @@ img {
 
 #wanted {
 	height: 800px;
-	margin-top: -100px;
+	margin-top: -75px;
 }
 
 	#wanted h2 {
@@ -549,6 +549,7 @@ img {
 		position: relative;
 		left: 35px;
 		margin-left: 10px;
+		top: -7px;
 	}
 	
 	#dev-skills img, #soft-skills img {
@@ -565,9 +566,9 @@ img {
 /* Start Eligibility Section CSS */
 
 #eligibility {
-	height: 400px;
+	height: 800px;
 	margin-top: -100px;
-	margin-bottom: -100px;
+	margin-bottom: -142px;
 }
 
 	#eligibility h1 {
@@ -603,7 +604,8 @@ img {
 
 #crew {
 	height: 800px;
-	margin-top: -150px;
+	    margin-bottom: 185px;
+	    margin-top: -158px;
 }
 
 	#crew h2 {
@@ -619,6 +621,10 @@ img {
 			position: relative;
 			letter-spacing: 1px;
 			text-shadow: 0 1px 2px #036EA4;
+		}
+		
+		#crew-title {
+			padding-top: 15px;
 		}
 
 /* End Crew Section CSS */
