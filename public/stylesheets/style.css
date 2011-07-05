@@ -296,7 +296,7 @@ nav {
 /* ----- End of Navigation CSS ------ */
 
 .section {
-	padding-bottom: 1000px;
+	padding-bottom: 700px;
 	padding-left: 250px;
 	padding-top: 150px;
 }
@@ -493,7 +493,7 @@ img {
 
 #wanted {
 	height: 800px;
-	margin-top: -100px;
+	margin-top: -75px;
 }
 
 	#wanted h2 {
@@ -531,11 +531,20 @@ img {
 		margin-bottom: 45px;
 		
 	}
+	
+	#skills h1 {
+		font-size: 40px;
+		font-weight: bold;
+		margin-bottom: 67px;
+		margin-top: -8px;
+		text-shadow: 0 1px 0 #FFFFFF, 0 2px 0 #EEEEEE, 0 3px 0 #DDDDDD, 0 4px 0 #CCCCCC;
+	}
 
 	#skills h2 {
 		font-family: Helvetica Condensed, Helvetica, sans-serif;
 		font-weight: bold;
 		font-size: 32px;
+		text-shadow: 0 1px 0 #FFFFFF, 0 2px 0 #EEEEEE, 0 3px 0 #DDDDDD, 0 4px 0 #CCCCCC;
 	}
 	
 	#skills ul {
@@ -544,11 +553,16 @@ img {
 	}
 	
 	#skills li {
-		font-size: 24px;
+		background: url("../images/red_hashrocket_03.png") no-repeat scroll -6px 50% transparent;
+		font-size: 32px;
+		left: 2px;
+		letter-spacing: 1px;
 		line-height: 1.5;
+		margin-bottom: 18px;
+		margin-left: 0;
+		padding-left: 39px;
 		position: relative;
-		left: 35px;
-		margin-left: 10px;
+		top: -7px;
 	}
 	
 	#dev-skills img, #soft-skills img {
@@ -565,15 +579,16 @@ img {
 /* Start Eligibility Section CSS */
 
 #eligibility {
-	height: 400px;
+	height: 800px;
 	margin-top: -100px;
-	margin-bottom: -100px;
+	margin-bottom: -142px;
 }
 
 	#eligibility h1 {
 		font-size: 40px;
-		    font-weight: bold;
-		    text-shadow: 3px 2px 2px white;
+		font-weight: bold;
+		text-shadow: 0 1px 0 #FFFFFF, 0 2px 0 #EEEEEE, 0 3px 0 #DDDDDD, 0 4px 0 #CCCCCC;
+		margin-top: 45px;
 		
 	}
 	
@@ -581,6 +596,7 @@ img {
 		font-weight: bold;
 		font-size: 32px;
 		margin-top: 50px;
+		text-shadow: 0 1px 0 #FFFFFF, 0 2px 0 #EEEEEE, 0 3px 0 #DDDDDD, 0 4px 0 #CCCCCC;
 	}
 	
 	#eligibility p {
@@ -593,7 +609,7 @@ img {
 	}
 	
 		h2#passion {
-			margin-top: 50px;
+			margin-top: 75px;
 		}
 
 /* End Eligibility Section CSS */
@@ -603,7 +619,8 @@ img {
 
 #crew {
 	height: 800px;
-	margin-top: -150px;
+	    margin-bottom: 185px;
+	    margin-top: -158px;
 }
 
 	#crew h2 {
@@ -611,6 +628,7 @@ img {
 		font-weight: bold;
 		font-size: 32px;
 		margin-top: 50px;
+		text-shadow: 0 1px 0 #FFFFFF, 0 2px 0 #EEEEEE, 0 3px 0 #DDDDDD, 0 4px 0 #CCCCCC;
 	}
 	
 		ul#mentor-list, #partner-list, #staff-list {
@@ -619,6 +637,10 @@ img {
 			position: relative;
 			letter-spacing: 1px;
 			text-shadow: 0 1px 2px #036EA4;
+		}
+		
+		#crew-title {
+			padding-top: 15px;
 		}
 
 /* End Crew Section CSS */
@@ -641,15 +663,16 @@ img {
 
 	#apply tweet {
 		color: #036EA4;
-		font-size: 24px;
+		font-size: 32px;
 		line-height: 1.5;
-		padding: 10px;
+		padding-left: 0px;
 		position: relative;
 		top: 10px;
 	}
 	
 	img#tweet-title {
 		position: relative;
+		padding-top: 15px;
 	}
 
 /* End Apply Section CSS */
