@@ -544,6 +544,7 @@ img {
 		font-family: Helvetica Condensed, Helvetica, sans-serif;
 		font-weight: bold;
 		font-size: 32px;
+		text-shadow: 0 1px 0 #FFFFFF, 0 2px 0 #EEEEEE, 0 3px 0 #DDDDDD, 0 4px 0 #CCCCCC;
 	}
 	
 	#skills ul {
@@ -627,6 +628,7 @@ img {
 		font-weight: bold;
 		font-size: 32px;
 		margin-top: 50px;
+		text-shadow: 0 1px 0 #FFFFFF, 0 2px 0 #EEEEEE, 0 3px 0 #DDDDDD, 0 4px 0 #CCCCCC;
 	}
 	
 		ul#mentor-list, #partner-list, #staff-list {
