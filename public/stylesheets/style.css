@@ -783,7 +783,7 @@ img {
 	/* The plus icon */
 	width:13px;
 	height:13px;
-	background:url('img/plus.gif') no-repeat center center;
+	background: url(../images/img/plus.gif) no-repeat center center;
 	margin:4px;
 	
 	/* Defining a CSS3 animation. Currently only works in Chrome and Safari */
@@ -830,3 +830,16 @@ img {
 .slideout > p{ display:none; }
 
 /* End Slideout CSS*/
+
+/* Start toggle CSS */
+
+.toggle {
+/*  color: #44c1cf;
+  font-size: 17px;
+  font-family: myFont;*/
+}
+
+.showable {
+}
+
+/* End Toggle CSS */

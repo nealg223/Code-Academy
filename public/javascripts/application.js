@@ -77,17 +77,16 @@ $(document).ready(function() {
 		//      $('#seventh').addClass('current');
 		//    }
 	});
-    
 });
-	
-	$(document).ready(function() {
-		$("#cf_onclick").click(function() {
-			$("#cf2 img.top").toggleClass("transparent");
-		});
-	});
-	
-	$(document).ready(function() {
-		$("#choices-yes_onclick").click(function() {
-			$("#choices-yes img.top").toggleClass("transparent");
-		});
-	});
+
+$(document).ready(function() {
+
+$('.showable').hide();
+
+$('.toggle').click(function() {
+var element = ("#showable-" + $(this).data("target"));
+  $(element).toggle('normal');
+  return false;
+});
+
+});

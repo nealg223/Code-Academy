@@ -3,7 +3,10 @@
     %img#title{:alt => "Skills", :src => "images/skills_title_03.png"}/
     %h2 Web App Development
     %ul#dev-skills
-      %li Ruby on Rails
+      .toggle{"data-target" => "1"}
+        %li Ruby on Rails
+      #showable-1.showable
+        %p some content
       %img{:src => "images/red_hashrocket_03.png"}
       %li HTML/CSS
       %img{:src => "images/red_hashrocket_03.png"}
@@ -18,3 +21,11 @@
       %li Presentation Skills
       %img{:src => "images/red_hashrocket_03.png"}
       %br/
+      
+    .toggle{"data-target" => "2"}
+      Your First Appointment
+      #showable-2.showable
+        %p Your initial appointment will take approximately 1 hour. Please click here to download your New Patient Package. It is important that you completely fill out these forms and bring them, along with your insurance card, to your first visit. In order to best serve your needs we cannot begin the appointment without these records. Excellence in dentistry begins with a careful diagnosis and treatment plan to move us towards the goals we will establish together. During your first visit, we will perform a comprehensive examination of teeth, gums, bite, joints and soft tissue. We will utilize all cavity and disease detecting radiographs and intra-oral photographs to identify areas of concern, determine your needs and develop a lifetime plan for your oral health. We believe this in-depth examination to be the cornerstone of quality dentistry.
+        %p Welcome to our practice and thank you for giving us the opportunity to serve your dental health needs.
+        %p
+          %b IMPORTANT: All patients under the age of 18 must be accompanied by a parent or guardian at the initial consultation.
