@@ -178,7 +178,7 @@ overflow: hidden;
 	position: fixed;
 	width: 265px;
 	height: 100%;
-	/*background: url(../images/black_sidebar_01.png) repeat-y;*/
+	z-index: 1;
 }
 
 	#sidebar img {
@@ -304,14 +304,14 @@ nav {
 img {
 	max-width: 100%;
 }
-
+/*
 .shadow {
   -moz-box-shadow: 2px 3px 7px #CCCCCC;
   -webkit-box-shadow: 2px 3px 7px #CCCCCC;
   box-shadow: 2px 3px 7px #CCCCCC;
 }
 
-		
+*/		
 /* Question Section CSS 
 
 #question {
@@ -528,11 +528,11 @@ img {
                             
 /* Start Skills Section CSS */
 
+
 #skills {
 	height: 800px;
 	margin-top: -100px;
-	background:	rgba(255, 255, 255, 0.8);
-	
+	position: relative;
 }
 
 	img#title {
@@ -571,6 +571,10 @@ img {
 		padding-left: 39px;
 		position: relative;
 		top: -7px;
+		font-family: Helvetica-Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		text-shadow: 0 1px 2px #036EA4;
+		
 	}
 	
 	#dev-skills img, #soft-skills img {
@@ -640,11 +644,12 @@ img {
 	}
 	
 		ul#mentor-list, #partner-list, #staff-list {
-			font-size: 24px;
-			line-height: 1.5;
-			position: relative;
-			letter-spacing: 1px;
-			text-shadow: 0 1px 2px #036EA4;
+			font-family: Helvetica-Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 24px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-shadow: 0 1px 2px #036EA4;
 		}
 		
 		#crew-title {
