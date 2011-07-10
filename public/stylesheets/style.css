@@ -176,6 +176,13 @@ margin: 0 auto;
 overflow: hidden;
 }
 
+.section {
+	padding-bottom: 300px;
+	padding-left: 250px;
+	padding-top: 150px;
+}
+
+
 #sidebar {
 	left: 0;
 	top: 0;
@@ -298,12 +305,6 @@ nav {
 	
 				
 /* ----- End of Navigation CSS ------ */
-
-.section {
-	padding-bottom: 700px;
-	padding-left: 250px;
-	padding-top: 150px;
-}
 
 img {
 	max-width: 100%;
@@ -502,10 +503,8 @@ img {
 /* Start Wanted Section CSS */
 
 #wanted {
-	height: 800px;
 	margin-top: -75px;
 	margin-bottom: -50px;
-	display: block;
 }
 
 	#wanted h2 {
@@ -525,6 +524,10 @@ img {
 	
 	#wanted img#ad {
 		min-width: 50%;
+		width: 400px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 }
 	
 /* End Wanted Section CSS */
@@ -534,7 +537,6 @@ img {
 
 
 #skills {
-	height: 800px;
 	margin-top: -144px;
 	position: relative;
 }
@@ -590,7 +592,6 @@ img {
 /* Start Eligibility Section CSS */
 
 #eligibility {
-	height: 800px;
 	margin-top: -100px;
 	margin-bottom: -214px;
 }
@@ -622,7 +623,6 @@ img {
 /* Start Crew Section CSS */
 
 #crew {
-	height: 800px;
 	margin-bottom: 185px;
 	margin-top: -161px;
 }
